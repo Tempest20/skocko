@@ -1,0 +1,52 @@
+main {
+    background-color: #8d99ae;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #edf2f4;
+    padding: 10px;
+}
+
+main ul {
+    list-style-type: square;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+main ul li {
+    color: #f1faee;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.nested {
+    list-style-type: circle;
+}
+
+@media screen and (max-width:576px) {
+
+    header {
+        overflow: hidden;
+    }
+
+    header ul {
+        list-style-type: none;
+        
+    }
+
+    header ul li {
+        display: block;
+        width: 100%;
+        border-bottom: white 1px solid;
+    }
+
+    body {
+        font-size: 1.20rem;
+    }
+
+
+}

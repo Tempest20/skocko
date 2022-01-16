@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/igra.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ikonica preuzeta sa https://www.flaticon.com/premium-icon/browsers_1664323?term=browser%20tab&page=1&position=10&page=1&position=10&related_id=1664323&origin=tag -->
+    <link rel="icon" href="../Resources/Images/browsers.ico">
+    <title>Skočko - Igra</title>
+</head>
+
+<body onload="generateCombination()">
+    <header>
+        <ul>
+            <li><a href="../index.html">Upute</a></li>
+            <li class="active"><a href="igra.html">Nova Igra</a></li>
+            <li><a href="info.html">O projektu</a></li>
+            <li class="socialmedia"><a target="_blank" href="https://www.instagram.com/dado_ramone/">Instagram</a></li>
+            <li class="socialmedia"><a target="_blank" href="https://github.com/Tempest20">Github</a></li>
+        </ul>
+    </header>
+    <span class="h3-pozadina">
+        <h3 id="score" class="score">0</h3>
+    </span>
+    <div class="kraj show" id="kraj">
+        <h1>Kraj igre</h1>
+        <br><br><br><br><br><br>
+        <button><a href="../index.html">Povratak na glavnu stranicu</a></button>
+        <button><a href="igra.html">Nova igra</a></button>
+    </div>
+    <div class="grid">
+        <button onclick="showCards()">Odaberi znak</button>
+        <button onclick="compareArrays()" class="show" id="btn">OK</button>
+        <br><br>
+        <h3>Broj znakova na pravim mjestima:<span id="pravi" class="krivi">0</span></h3>
+        <br>
+        <h3>Broj pogođenih znakova:<span id="krivi" class="krivi">0</span></h3>
+        <br><br>
+    </div>
+    <div class="ikonice" id="ikonice">
+
+    </div>
+    <div class="broj-pokusaja">
+        <h2>Broj pokušaja:<span id="brojac">7</span></h2>
+    </div>
+
+    <div class="meni show" id="meni">
+        <img src="../Resources/Images/one.svg" class="slika" data-value=0 onclick="addToArray(0)">
+        <img src="../Resources/Images/two.svg" class="slika" data-value=1 onclick="addToArray(1)">
+        <img src="../Resources/Images/three.svg" class="slika" data-value=2 onclick="addToArray(2)">
+        <img src="../Resources/Images/four.svg" class="slika" data-value=3 onclick="addToArray(3)">
+        <img src="../Resources/Images/five.svg" class="slika" data-value=4 onclick="addToArray(4)">
+        <img src="../Resources/Images/six.svg" class="slika" data-value=5 onclick="addToArray(5)">
+    </div>
+    <script src="../JS/igra.js"></script>
+</body>
+
+</html>

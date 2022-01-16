@@ -1,0 +1,191 @@
+.grid {
+    width: 45%;
+    margin: auto;
+    background-color: #529ccb;
+    padding: 10px;
+    border-radius: 7px;
+    border: white solid 2px;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+    font-size: 1.56rem;
+}
+
+.pravi {
+    margin: 0;
+    padding: 0;
+}
+
+.score {
+    text-align: center;
+}
+
+.grid button {
+    padding: 14px 16px;
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+
+.meni {
+    width: 50%;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 30%;
+    text-align: center;
+    background-color: #529ccb;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: white solid 2px;
+    z-index: 10;
+}
+
+.meni img {
+    width: 8%;
+    margin: 5px;
+}
+
+.meni img:hover {
+    cursor: nw-resize;
+}
+
+.show {
+    visibility: hidden;
+    display: none;
+    border: white 2px solid;
+}
+
+.border-class {
+    border: white 2px solid;
+}
+
+.broj-pokusaja {
+    width: 29%;
+    color: white;
+    margin: auto;
+    background-color: #529ccb;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 55%;
+    border-radius: 10px;
+    border: white solid 2px;
+    padding: 10px;
+}
+
+.ikonice {
+    width: 30%;
+    color: white;
+    margin: auto;
+    background-color: #529ccb;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 15%;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.ikonice img {
+    width: 15%;
+    margin: 5px;
+}
+
+.kraj {
+    color: white;
+    width: 50%;
+    z-index: 10;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+    background-color: #457b9d;
+    border: white solid 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.kraj button {
+    padding: 3px;
+    margin: 10px;
+}
+
+.kraj button a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.23rem;
+}
+
+
+@media screen and (max-width:576px) {
+
+    header {
+        overflow: hidden;
+    }
+
+    header ul {
+        list-style-type: none;
+        
+    }
+
+    header ul li {
+        display: block;
+        width: 100%;
+        border-bottom: white 1px solid;
+    }
+
+    body {
+        font-size: 1.20rem;
+    }
+
+
+    .grid {
+        width: 65%;
+    }
+
+    .grid button {
+        margin: 10px;
+        width: 40%;
+    }
+
+    .broj-pokusaja {
+        width: 35%;
+    }
+
+    .ikonice {
+        width: 45%;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .ikonice img {
+        width: 15%;
+    }
+
+    .meni {
+        width: 65%;
+    }
+
+    .meni img {
+        width: 15%;
+    }
+
+}
+
+@media screen and (max-width:710px) {
+
+    .grid button {
+        width: 40%;
+    }
+
+    .meni {
+        width: 70%;
+    }
+
+    .ikonice {
+        width: 35%;
+    }
+
+}
