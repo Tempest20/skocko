@@ -1,7 +1,6 @@
 # Skocko - Projekat iz predmeta 'Web Programiranje 1' na Prirodno-matematickom fakultetu u Sarajevu
 
 - HTML, CSS i JavaScript
-- Nije najljepsa stvar na svijetu ali eto
 
 
 Pravila:
